@@ -1,6 +1,6 @@
 const islandData = {
     "Jamaica": {
-        ageRestriction: "Maximum 5 years old (some exemptions for Classic/Commercial)",
+        ageRestriction: "Maximum 6 years old (some exemptions for Classic/Commercial)",
         icon: "fa-sun"
     },
     "Trinidad & Tobago": {
@@ -34,7 +34,7 @@ const favoritesData = [
         island: "Jamaica",
         brand: "Toyota",
         model: "Vitz / Yaris",
-        year: "2019 - 2022",
+        year: "2020 - 2022",
         image: "images/vitz2.jpeg",
         caption: "Hot Favorite",
         description: "Extremely fuel-efficient and reliable compact car. A staple on Jamaican roads.",
@@ -46,7 +46,7 @@ const favoritesData = [
         island: "Jamaica",
         brand: "Toyota",
         model: "Corolla Axio",
-        year: "2019 - 2022",
+        year: "2020 - 2022",
         image: "images/axio.jpeg",
         caption: "Family Choice",
         description: "The benchmark for sedan reliability. Exceptional resale value and spacious interior.",
@@ -58,7 +58,7 @@ const favoritesData = [
         island: "Jamaica",
         brand: "Honda",
         model: "Fit / Jazz",
-        year: "2019 - 2022",
+        year: "2020 - 2022",
         image: "images/fit.jpeg",
         caption: "Economy",
         description: "Incredible interior space management with Magic Seats. Sporty drive feel.",
