@@ -707,3 +707,60 @@ footer {
     grid-template-columns: 2fr 1fr 1fr 1.5fr;
   }
 }
+
+/* Custom Scroll Styles Extracted From JS Request */
+.scrollable-container::-webkit-scrollbar {
+    display: none;
+}
+.scrollable-container {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none;    /* Firefox */
+}
+
+.scroll-toggle {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10;
+    transition: var(--transition);
+}
+.scroll-toggle:hover {
+    background: var(--primary);
+}
+
+/* Adjusting Toggle Positions */
+.scroll-toggle.left { left: -10px; }
+.scroll-toggle.right { right: -10px; }
+.scroll-toggle.img-left { left: 5px; }
+.scroll-toggle.img-right { right: 5px; }
+
+/* In mobile layouts adjust card size */
+.responsive-card {
+  flex: 0 0 calc(33.333% - 14px) !important;
+  min-width: 320px;
+  max-width: 400px;
+}
+
+@media (max-width: 767px) {
+  .responsive-card {
+    flex: 0 0 85% !important; /* Shows a bit of the next card on mobile */
+    min-width: 0; 
+    max-width: 320px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .responsive-card {
+    flex: 0 0 calc(50% - 14px) !important;
+  }
+}
