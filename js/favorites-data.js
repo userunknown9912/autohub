@@ -86,7 +86,7 @@ const favoritesData = [
     },
     {
         island: "Jamaica", brand: "Toyota", model: "Vitz", bodyType: "Hatchbacks", year: "2021 - 2026",
-        images: ["images/vitz3.jpg", "images/vitz2.jpg", "images/vitz.jpg"], caption: "City Car", description: "Compact, reliable, and perfectly suited for city driving.", engine: "1000cc", transmission: "Auto", badgeColor: "var(--primary)"
+        images: ["images/vitz3.jpg", "images/vitz2.jpeg", "images/vitz.png"], caption: "City Car", description: "Compact, reliable, and perfectly suited for city driving.", engine: "1000cc", transmission: "Auto", badgeColor: "var(--primary)"
     },
     {
         island: "Jamaica", brand: "Honda", model: "Fit", bodyType: "Hatchbacks", year: "2021 - 2026",
