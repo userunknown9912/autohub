@@ -33,64 +33,64 @@ const favoritesData = [
     // Jamaica Stock (Grouped by Body Type)
     {
         island: "Jamaica", brand: "Toyota", model: "Corolla Fielder", bodyType: "Station Wagons", year: "2021 - 2026",
-        images: ["images/hero.png", "images/auction.png", "images/vitz2.jpeg"],
+        images: ["images/fielder2.jpeg", "images/fielder.jpeg"],
         caption: "Wagon", description: "Spacious estate car offering great fuel economy and reliability.", engine: "1500cc", transmission: "Auto", badgeColor: "var(--primary)"
     },
     {
         island: "Jamaica", brand: "Toyota", model: "Corolla Axio", bodyType: "Sedans", year: "2021 - 2026",
-        images: ["images/axio.jpeg", "images/hero.png", "images/auction.png"], caption: "Premium Sedan", description: "Elegant and comfortable sedan with excellent reliability and efficiency.", engine: "1500cc/1800cc", transmission: "Auto", badgeColor: "var(--primary)"
+        images: ["images/axio.jpeg", "images/axio2.jpg"], caption: "Premium Sedan", description: "Elegant and comfortable sedan with excellent reliability and efficiency.", engine: "1500cc/1800cc", transmission: "Auto", badgeColor: "var(--primary)"
     },
     {
         island: "Jamaica", brand: "Honda", model: "Civic", bodyType: "Sedans", year: "2021 - 2026",
-        images: ["images/auction.png", "images/hero.png", "images/fit.jpeg"], caption: "Sporty Sedan", description: "Dynamic handling and modern tech features for an engaging drive.", engine: "1500cc/1800cc", transmission: "Auto", badgeColor: "var(--secondary)"
+        images: ["images/civic.jpeg", "images/civic2.jpeg", "images/civic3.jpeg"], caption: "Sporty Sedan", description: "Dynamic handling and modern tech features for an engaging drive.", engine: "1500cc/1800cc", transmission: "Auto", badgeColor: "var(--secondary)"
     },
     {
         island: "Jamaica", brand: "Toyota", model: "Probox", bodyType: "Mini Station Wagons", year: "2021 - 2026",
-        images: ["images/auction.png", "images/hero.png", "images/axio.jpeg"], caption: "Workhorse", description: "The ultimate commercial vehicle built purely for durability.", engine: "1500cc", transmission: "Auto", badgeColor: "var(--secondary)"
+        images: ["images/probox.jpeg"], caption: "Workhorse", description: "The ultimate commercial vehicle built purely for durability.", engine: "1500cc", transmission: "Auto", badgeColor: "var(--secondary)"
     },
     {
         island: "Jamaica", brand: "Mazda", model: "Demio", bodyType: "Hatchbacks", year: "2021 - 2026",
-        images: ["images/hero.png", "images/auction.png", "images/CX-5.jpeg"], caption: "Sporty", description: "A stylish and responsive hatchback with a premium interior feel.", engine: "1300cc", transmission: "Auto", badgeColor: "var(--primary)"
+        images: ["images/demio.jpeg", "images/auction.png", "images/CX-5.jpeg"], caption: "Sporty", description: "A stylish and responsive hatchback with a premium interior feel.", engine: "1300cc", transmission: "Auto", badgeColor: "var(--primary)"
     },
     {
         island: "Jamaica", brand: "Honda", model: "Vezel", bodyType: "SUVs", year: "2021 - 2026",
-        images: ["images/auction.png", "images/hero.png", "images/fit.jpeg"], caption: "Crossover", description: "Stylish hybrid Crossover offering power and economy.", engine: "1500cc", transmission: "Auto", badgeColor: "#25d366"
+        images: ["images/vezel.jpg", "images/vezel2.jpg", "images/vezel3.jpg", "images/vezel4.jpg", "images/vezel5.jpg"], caption: "Crossover", description: "Stylish hybrid Crossover offering power and economy.", engine: "1500cc", transmission: "Auto", badgeColor: "#25d366"
     },
     {
         island: "Jamaica", brand: "Nissan", model: "X-Trail", bodyType: "SUVs", year: "2021 - 2026",
-        images: ["images/hero.png", "images/auction.png", "images/X-Trail.jpeg"], caption: "Top SUV", description: "Reliable and spacious SUV handling all terrains smoothly.", engine: "2000cc", transmission: "Auto", badgeColor: "var(--secondary)"
+        images: ["images/X-Trail.jpeg"], caption: "Top SUV", description: "Reliable and spacious SUV handling all terrains smoothly.", engine: "2000cc", transmission: "Auto", badgeColor: "var(--secondary)"
     },
     {
         island: "Jamaica", brand: "Toyota", model: "Corolla Cross", bodyType: "SUVs", year: "2021 - 2026",
-        images: ["images/auction.png", "images/hero.png", "images/fit.jpeg"], caption: "Premium", description: "Modern, elevated driving experience with Corolla reliability.", engine: "1800cc", transmission: "Auto", badgeColor: "var(--secondary)"
+        images: ["images/cross1.jpg", "images/cross2.jpg", "images/cross3.jpg"], caption: "Premium", description: "Modern, elevated driving experience with Corolla reliability.", engine: "1800cc", transmission: "Auto", badgeColor: "var(--secondary)"
     },
     {
         island: "Jamaica", brand: "Toyota", model: "Aqua", bodyType: "Hatchbacks", year: "2021 - 2026",
-        images: ["images/hero.png", "images/auction.png", "images/prius.jpeg"], caption: "Hybrid King", description: "Exceptionally economical hybrid hatchback.", engine: "1500cc Hybrid", transmission: "Auto", badgeColor: "#25d366"
+        images: ["images/aqua2.jpg", "images/aqua.jpg"], caption: "Hybrid King", description: "Exceptionally economical hybrid hatchback.", engine: "1500cc Hybrid", transmission: "Auto", badgeColor: "#25d366"
     },
     {
         island: "Jamaica", brand: "Suzuki", model: "Swift", bodyType: "Hatchbacks", year: "2021 - 2026",
-        images: ["images/auction.png", "images/hero.png", "images/vitz2.jpeg"], caption: "Fun Drive", description: "Lightweight, agile, and incredibly fun to drive hatchback.", engine: "1200cc", transmission: "Auto", badgeColor: "var(--primary)"
+        images: ["images/swift.jpeg"], caption: "Fun Drive", description: "Lightweight, agile, and incredibly fun to drive hatchback.", engine: "1200cc", transmission: "Auto", badgeColor: "var(--primary)"
     },
     {
         island: "Jamaica", brand: "Toyota", model: "Hiace", bodyType: "Vans", year: "2021 - 2026",
-        images: ["images/hero.png", "images/auction.png", "images/voxy.jpeg"], caption: "Transport", description: "Unbreakable passenger and cargo transport legend.", engine: "2000cc / 3000cc", transmission: "Auto", badgeColor: "var(--secondary)"
+        images: ["images/Hiace.jpg"], caption: "Transport", description: "Unbreakable passenger and cargo transport legend.", engine: "2000cc / 3000cc", transmission: "Auto", badgeColor: "var(--secondary)"
     },
     {
         island: "Jamaica", brand: "Toyota", model: "RAV4", bodyType: "SUVs", year: "2021 - 2026",
-        images: ["images/auction.png", "images/hero.png", "images/X-Trail.jpeg"], caption: "Iconic SUV", description: "Dynamic, robust, and highly demanded SUV globally.", engine: "2000cc", transmission: "Auto", badgeColor: "var(--primary)"
+        images: ["images/rav4.jpeg", "images/rav42.jpg"], caption: "Iconic SUV", description: "Dynamic, robust, and highly demanded SUV globally.", engine: "2000cc", transmission: "Auto", badgeColor: "var(--primary)"
     },
     {
         island: "Jamaica", brand: "Toyota", model: "Mark X", bodyType: "Sedans", year: "2021 - 2026",
-        images: ["images/hero.png", "images/auction.png", "images/axio.jpeg"], caption: "Luxury Sedan", description: "High-performance luxury sedan built for comfort and speed.", engine: "2500cc", transmission: "Auto", badgeColor: "var(--secondary)"
+        images: ["images/markx.jpg", "images/markx2.jpg", "images/markx3.jpg", "images/markx4.jpg"], caption: "Luxury Sedan", description: "High-performance luxury sedan built for comfort and speed.", engine: "2500cc", transmission: "Auto", badgeColor: "var(--secondary)"
     },
     {
         island: "Jamaica", brand: "Toyota", model: "Vitz", bodyType: "Hatchbacks", year: "2021 - 2026",
-        images: ["images/vitz2.jpeg", "images/hero.png", "images/auction.png"], caption: "City Car", description: "Compact, reliable, and perfectly suited for city driving.", engine: "1000cc", transmission: "Auto", badgeColor: "var(--primary)"
+        images: ["images/vitz3.jpg", "images/vitz2.jpg", "images/vitz.jpg"], caption: "City Car", description: "Compact, reliable, and perfectly suited for city driving.", engine: "1000cc", transmission: "Auto", badgeColor: "var(--primary)"
     },
     {
         island: "Jamaica", brand: "Honda", model: "Fit", bodyType: "Hatchbacks", year: "2021 - 2026",
-        images: ["images/fit.jpeg", "images/hero.png", "images/auction.png"], caption: "Compact", description: "Versatile and highly efficient subcompact car ideal for every day.", engine: "1300cc", transmission: "Auto", badgeColor: "var(--primary)"
+        images: ["images/fit.jpeg", "images/fit2.jpg"], caption: "Compact", description: "Versatile and highly efficient subcompact car ideal for every day.", engine: "1300cc", transmission: "Auto", badgeColor: "var(--primary)"
     },
 
     // Old Trindad & Tobago
